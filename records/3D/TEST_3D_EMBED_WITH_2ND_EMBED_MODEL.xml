@@ -63,7 +63,7 @@
     </edm:WebResource>
 
 	<edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_inside.glb">
-        <dc:title xml:lang="en">3D model of the inside view of the Church (GLB complete version)</dc:title>
+        <dc:title xml:lang="en">3D model of the inside view of the Church (High resolution, GLB version)</dc:title>
         <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
         <dcterms:temporal>12-2023</dcterms:temporal>
         <edm:type>3D</edm:type>

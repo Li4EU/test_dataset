@@ -40,7 +40,7 @@
         <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
         <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Research"/>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
-		<rdfs:seeAlso rdf:resource="https://zenodo.org/records/8108354/files/Descriptive_List.xlsx"/>
+		<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/paradata.xlsx"/>
         <dcterms:created>2022</dcterms:created>
     </edm:WebResource>
 

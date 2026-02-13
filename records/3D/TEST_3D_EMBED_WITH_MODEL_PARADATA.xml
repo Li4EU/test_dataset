@@ -55,7 +55,7 @@
         <edm:polygonCount>316646</edm:polygonCount>
         <edm:vertexCount>1578</edm:vertexCount>
         <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
-		<rdfs:seeAlso rdf:resource="https://zenodo.org/records/8108354/files/Descriptive_List.xlsx"/>
+		<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/paradata.xlsx"/>
     </edm:WebResource>
 
     <svcs:Service rdf:about="https://sketchfab.com/oembed">
