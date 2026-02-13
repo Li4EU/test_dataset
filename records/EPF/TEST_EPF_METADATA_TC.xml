@@ -14,8 +14,8 @@
     >
 
     <edm:ProvidedCHO rdf:about="#TEST_EPF_METADATA_TC">
-        <dc:title xml:lang="en">TEST RECORD: Metadata Tier C</dc:title>
-        <dc:description xml:lang="en">This is a sample record representing a Tier C metadata record.</dc:description>
+        <dc:title xml:lang="en">TEST RECORD: EPF Metadata Tier C</dc:title>
+        <dc:description xml:lang="en">This is a sample metadata record classified as EPF Metadata Tier C.</dc:description>
         <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
         <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>
         <dcterms:conformsTo xml:lang="en">Supported</dcterms:conformsTo>
