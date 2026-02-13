@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xmlns:edm="http://www.europeana.eu/schemas/edm/" 
+    xmlns:odrl="http://www.w3.org/ns/odrl/2/" 
+    xmlns:ore="http://www.openarchives.org/ore/terms/" 
+    xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+    xmlns:svcs="http://rdfs.org/sioc/services#" 
+    xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+    >
+
+    <edm:ProvidedCHO rdf:about="#TEST_EPF_METADATA_TA">
+        <dc:title xml:lang="en">TEST RECORD: Metadata Tier A</dc:title>
+        <dc:description xml:lang="en">This is a sample record representing a Tier A metadata record.</dc:description>
+        <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
+        <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>
+        <dcterms:conformsTo xml:lang="en">Supported</dcterms:conformsTo>
+        <dc:type>book</dc:type>
+        <edm:type>TEXT</edm:type>
+        <dc:language>en</dc:language>
+    </edm:ProvidedCHO>
+
+    <ore:Aggregation rdf:about="#Aggregation">
+        <edm:aggregatedCHO rdf:resource="#TEST_EPF_METADATA_TA"/>
+        <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+        <edm:provider>Europeana Foundation</edm:provider>
+        <edm:isShownBy rdf:resource="http://media.culturegrid.org.uk/mediaLibrary/Partage/LoveArtNouveau/Glasgow/DSCF4092.JPG"/>
+        <edm:rights rdf:resource="http://rightsstatements.org/vocab/NoC-OKLR/1.0/"/>
+    </ore:Aggregation>
+
+</rdf:RDF>
